@@ -1,31 +1,27 @@
 <div align="center">
-  <img src="./docs/images/github-cover-new.png" alt="RAG Web UI Demo">
+  <img src="./docs/images/github-cover-new.png" alt="CogniFetch Demo">
   <br />
   <p>
-    <strong>Knowledge Base Management Based on RAG (Retrieval-Augmented Generation)</strong>
+    <strong>CogniFetch: An Intelligent Knowledge Base Management & Chat Assistant based on RAG</strong>
   </p>
 
   <p>
-    <a href="https://github.com/rag-web-ui/rag-web-ui/blob/main/LICENSE"><img src="https://img.shields.io/github/license/rag-web-ui/rag-web-ui" alt="License"></a>
+    <a href="https://github.com/Shreyans388/CogniFetch/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Shreyans388/CogniFetch" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python"></a>
     <a href="#"><img src="https://img.shields.io/badge/node-%3E%3D18-green.svg" alt="Node"></a>
-    <a href="#"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-    <a href="#"><img src="https://github.com/rag-web-ui/rag-web-ui/actions/workflows/test.yml/badge.svg" alt="CI"></a>
   </p>
 
   <p>
     <a href="#features">Features</a> •
     <a href="#quick-start">Quick Start</a> •
-    <a href="#deployment-guide">Deployment</a> •
     <a href="#architecture">Architecture</a> •
-    <a href="#development">Development</a> •
-    <a href="#contributing">Contributing</a> •
-    <a href="https://deepwiki.com/rag-web-ui/rag-web-ui" target="_blank">DeepWiki</a>
+    <a href="#development-guide">Development</a> •
+    <a href="#configuration">Configuration</a>
   </p>
 </div>
 
 ## 📖 Introduction
-RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology that helps build intelligent Q&A systems based on your own knowledge base. By combining document retrieval and large language models, it achieves accurate and reliable knowledge-based question answering services.
+**CogniFetch** is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology that helps build intelligent Q&A systems based on your own knowledge base. By combining document retrieval and large language models, it achieves accurate and reliable knowledge-based question answering services.
 
 The system supports multiple **LLM** deployment options, including cloud services like **OpenAI**, **DeepSeek**, and **[MiniMax](https://www.minimax.io)**, as well as local model deployment through **Ollama**, meeting privacy and cost requirements in different scenarios.
 
@@ -183,8 +179,8 @@ graph TB
 
 1. Clone the repository
 ```bash
-git clone https://github.com/rag-web-ui/rag-web-ui.git
-cd rag-web-ui
+git clone https://github.com/Shreyans388/CogniFetch.git
+cd CogniFetch
 ```
 
 2. Configure environment variables
@@ -307,22 +303,9 @@ docker compose -f docker-compose.dev.yml up -d --build
 | --------- | ---------------- | ------------- | -------- |
 | TZ        | Timezone Setting | Asia/Shanghai | ❌        |
 
-## 🤝 Contributing
+## 👤 Author
 
-We welcome community contributions!
-
-### Contribution Process
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Create a Pull Request
-
-### Development Guidelines
-
-- Follow [Python PEP 8](https://pep8.org/) coding standards
-- Follow [Conventional Commits](https://www.conventionalcommits.org/)
+- **Shreyans** - [Shreyans388](https://github.com/Shreyans388)
 
 ### 🚧 Roadmap
 
@@ -340,9 +323,9 @@ For common issues and solutions, please refer to our [Troubleshooting Guide](doc
 
 This project is licensed under the [Apache-2.0 License](LICENSE)
 
-## Note
+## 📝 Note
 
-This project is for learning and sharing RAG knowledge only. Please do not use it for commercial purposes. It is not ready for production use and is still under active development.
+CogniFetch is a personal project built for exploring RAG (Retrieval-Augmented Generation) architectures, combining modern frontend aesthetics with a robust, scalable backend stack.
 
 ## 🙏 Acknowledgments
 
@@ -353,11 +336,8 @@ Thanks to these open source projects:
 - [Next.js](https://nextjs.org/)
 - [ChromaDB](https://www.trychroma.com/)
 
-
-![star history](https://api.star-history.com/svg?repos=rag-web-ui/rag-web-ui&type=Date)
-
 ---
 
 <div align="center">
-  If this project helps you, please consider giving it a ⭐️
+  Created by <a href="https://github.com/Shreyans388">Shreyans388</a> 🚀
 </div>
