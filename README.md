@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="./docs/images/Gemini_Generated_Image_tueg2stueg2stueg(1).png" alt="CogniFetch Demo">
+  <img src="./docs/images/Gemini_Generated_Image_e3bjobe3bjobe3bj.png" alt="CogniFetch Demo">
+  
   <br />
   <p>
     <strong>CogniFetch: An Intelligent Knowledge Base Management & Chat Assistant based on RAG</strong>
